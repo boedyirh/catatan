@@ -1,0 +1,12 @@
+<?php
+echo "Today is " . date("Y/m/d") . "<br>";
+echo "Today is " . date("Y.m.d") . "<br>";
+echo "Today is " . date("Y-m-d") . "<br>";  //Yang sering dipakai, karena ini yg standard ISO
+echo "Today is " . date("l");
+?>
+
+Today is 2020/11/03
+Today is 2020.11.03
+Today is 2020-11-03.   --> Yang sering dipakai
+Today is Tuesday
+
