@@ -10,3 +10,7 @@ Today is 2020.11.03
 Today is 2020-11-03.   --> Yang sering dipakai
 Today is Tuesday
 
+Dan untuk menampilkan tanggal supaya sesuai format Indonesia.
+$tanggal_ISO ='2012-05-12';
+date("d-m-Y",strtotime($tanggal_ISO))
+
