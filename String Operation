@@ -1,2 +1,10 @@
 Merubah Huruf besar semua menjadi Huruf besar hanya depannya saja
-ucfirst("hello world!"); ==> akan berubah menjadi Hello World
+ucfirst("hello world!"); ==> akan berubah menjadi Hello world
+
+ucwords("hello world!"); ==> akan berubah menjadi Hello World
+
+
+    lcfirst() - converts the first character of a string to lowercase
+    ucwords() - converts the first character of each word in a string to uppercase
+    strtoupper() - converts a string to uppercase
+    strtolower() - converts a string to lowercase
