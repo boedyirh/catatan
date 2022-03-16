@@ -1,0 +1,19 @@
+Eloquent first() ... Hasilnya adalah object dengan single model.
+
+Did dalam view, karena hasilnya hanya satu record. maka bisa langsung diambil dengan
+$data->field.
+
+Tidak perlu memakai foreach
+
+
+
+Eloquent get() .... hasilnya adalah collection, jadi resultnya banyak record (Walau bisa jadi hanya ada satu record yang ditampilkan, tergantung query-nya)
+Di dalam view, karena bentuknya collection 
+
+//$key adalah index dari array
+foreach ($data as $key=>$item) {.
+  
+  $item->field1
+  $item->field2
+  
+}
