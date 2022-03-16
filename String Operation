@@ -1,0 +1,2 @@
+Merubah Huruf besar semua menjadi Huruf besar hanya depannya saja
+ucfirst("hello world!"); ==> akan berubah menjadi Hello World
