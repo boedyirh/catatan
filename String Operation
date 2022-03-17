@@ -10,7 +10,8 @@ ucwords("hello world!"); ==> akan berubah menjadi Hello World
     strtolower() - converts a string to lowercase
     
     
-    Menampilkan nomer telephone dengan format yang mudah dibaca
+    
+Menampilkan nomer telephone dengan format yang mudah dibaca
     Misal Nomer HP : 1233455667 akan diformat menjadi 123-345-5667
     
     substr($nomer_hp, -10, -7) . "-" . substr($nomer_hp, -7, -4) . "-" . substr($nomer_hp, -4)
