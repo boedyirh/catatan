@@ -1,0 +1,14 @@
+Kelemahan PHP adalah jika usernya banyak. Lebih dari 500 user yg akses bersamaan.
+Banyak yang memilih NodeJS karena alasan ini.
+
+Terdapat app server PHP untuk mengatasi hal ini. Bisa memakai Roadrunner atau PHP Swoole.
+https://roadrunner.dev/ terdapat versi windows
+https://openswoole.com/  
+
+Secara umum dalam real world aplikasi,  di perusahaan jarang ada aplikasi yang diakses melebihi 500 user yang akses bersamaan, Biasanya hanya di bawah 30. 
+PHP masih aman.
+Apalagi jika digabung dengan load balancer.
+Kecuali aplikasi E-commerce yg usernya bisa ratusan ribu.
+
+
+
